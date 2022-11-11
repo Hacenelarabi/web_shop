@@ -1,0 +1,80 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+    font-family: cursive;
+}
+.navbar a:hover,
+.header a:hover, li a.active{
+     color:green;
+     
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header li{
+    list-style: none;
+    margin: 0 20px;
+    
+}
+.header a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:black;
+}
+
+
+
+/* home page */
+
+
+
+
+.hero{
+    background-color: rgb(203, 211, 209);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10%;
+    background-image: url("https://img.freepik.com/free-vector/seasonal-sale-discounts-presents-purchase-visiting-boutiques-luxury-shopping-price-reduction-promotional-coupons-special-holiday-offers-vector-isolated-concept-metaphor-illustration_335657-2766.jpg?w=2000");
+}
+.hero button{
+ border-radius: 90% 50%;  
+}
+
+.hero h1{
+    color:aqua;
+    font-size: 70px;
+}
+.hero button:hover{
+    color:brown;
+    font-size:30px;
+    background-color:bisque;
+    padding-right: 17px;
+}
+.hero h4{
+    font-size: 30px;
+}
+.hero h2{
+    font-size: 50px;
+}
+.hero p{
+    font-size: 20px;
+}
