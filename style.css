@@ -78,3 +78,13 @@
 .hero p{
     font-size: 20px;
 }
+
+.bcolor{
+    color: red;
+    margin: 1px 1px;
+    border-radius: 8%;
+}
+.colorb:hover{
+    
+    box-shadow:-10px -10px 54px rgb(164, 92, 5), 10px 10px 54px rgb(164, 92, 5); /*horizontal, vertical, blur, color*/
+}
