@@ -88,3 +88,29 @@
     
     box-shadow:-10px -10px 54px rgb(164, 92, 5), 10px 10px 54px rgb(164, 92, 5); /*horizontal, vertical, blur, color*/
 }
+.icon{
+    box-shadow: inset ;
+}
+.icon {
+    color: blue;
+    margin-left: 140px;
+
+}
+.brand{
+    opacity: 0.5;
+}
+.card-img{
+    border: solid 1px;
+    background-color: rgb(2, 2, 15);
+    width: 180px;
+    height: 150px;
+    border-radius: 20%;
+    margin: 10px 10px;
+    padding: 0px 10px;
+}
+.container{
+    display: fle
+    justify-content: space-b
+    
+   
+}
