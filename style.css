@@ -108,9 +108,24 @@
     margin: 10px 10px;
     padding: 0px 10px;
 }
-.container{
-    display: fle
-    justify-content: space-b
-    
-   
+#end{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaE32E4lXFDLBlrdR2Pq0cG4sIq6F-Jt2bBQ&usqp=CAU');
+     position: relative;
+    top: 65px;
+    margin-bottom: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: 300px ;
+}
+
+#end button:hover{
+    color:rgb(41, 197, 38);
+    background-color: black;
+}
+#end button{
+    border-radius: 9%;
+    padding: 1px 3px;
+    border: none;
 }
