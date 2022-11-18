@@ -1,8 +1,8 @@
-const button = document.getElementById('card');
+const button = document.getElementsByClassName('.card');
 
 
 
-button.addEventListener('click', function(){
+button.addEventListener('click', function(e){
  console.log('added');
 
 });

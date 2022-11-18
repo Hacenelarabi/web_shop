@@ -1,3 +1,6 @@
+html{
+    width:100%;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -228,7 +231,7 @@ background-color: yellow;
 .rowl{
     margin-top: 40px;
 }
-#card{
+.cart{
     width: 50px;
     position:relative;
     left: 151px;
@@ -257,4 +260,15 @@ background-color: yellow;
 .storyText{
     width: 380px;
     font-size: 21px;
+}
+.dInfo{
+    text-align: center;
+    margin: 60px 160px;
+}
+.dinfoT{
+    font-size: 30px;
+    opacity: 50%;
+}
+.dinfot{
+    font-size: 25px;
 }
